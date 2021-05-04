@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgba(238, 222, 168, 0.961);
+  font-family: "Montserrat", sans-serif;
+}
+
+.BlogsContainer {
+  padding-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+}
+
+.PostContainer {
+  border: 3px solid black;
+  width: 375px;
+}
+
+.Image {
+  border-bottom: 2px solid black;
+  width: 370px;
+  height: 275px;
+  object-fit: cover;
+  margin-bottom: 3%;
+}
+
+.TDContainer {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
